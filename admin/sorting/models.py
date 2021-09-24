@@ -1,15 +1,7 @@
 from django.db import models
 from dataclasses import dataclass
 # Create your models here.
-class Sorting(object):
-    def bubble_sort(self):
-        pass
 
-    def merge_sort(self):
-        pass
-
-    def quick_sort(self):
-        pass
 
 @dataclass
 class Palindrome(object):
